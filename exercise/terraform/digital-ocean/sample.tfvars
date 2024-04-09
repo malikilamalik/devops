@@ -1,5 +1,9 @@
 do_token = ""
-
 vpc_name = ""
+vpc_cidr = ""
 
-vpc_ip_range = ""
+droplet_name = ""
+droplet_size = ""
+droplet_image = ""
+
+ssh_key_path = ""

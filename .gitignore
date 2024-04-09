@@ -1,2 +1,6 @@
 .terraform*
 production.tfvars
+do-exercise
+do-exercise.pub
+*.tfstate
+*.backup

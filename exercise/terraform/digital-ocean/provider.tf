@@ -11,3 +11,13 @@ terraform {
 provider "digitalocean" {
   token = var.do_token
 }
+
+terraform {
+  cloud {
+    organization = "COWL"
+
+    workspaces {
+      name = "do-exercise"
+    }
+  }
+}
